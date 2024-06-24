@@ -20,11 +20,12 @@ label start:
     O "Vou dar uma olhada."
 
     scene bg flower_shop_interior
-    show Violeta normal at center
+    show Violeta normal at right
 
     V "Olá! Bem-vindo à Pétalas de Jasmim. Posso ajudar em algo?"
-    O "Olá! Sou Oliver, um fotógrafo amador. Estou em busca de inspiração."
-    Vf "Fotógrafo? Que interessante! Eu sou Violeta, e trabalho aqui na floricultura. Amo flores."
+    show Oliver normal at left
+    O "Olá! Sou Oliver, e sou fotógrafo. Estou aqui em Lírio do Vale em busca de inspiração."
+    Vf "Fotógrafo? Que interessante! Eu sou Violeta, e trabalho aqui na floricultura. Amo flores desde que eu me entendo por gente."
     Of "Prazer em conhecê-la, Violeta. Essas flores são realmente lindas."
     Vf "Obrigada! Se precisar de algo, estarei por aqui."
 
@@ -36,7 +37,7 @@ label start:
 
 label ask_flowers:
     V "Cada flor aqui tem uma história. Por exemplo, essas violetas simbolizam lealdade e devoção."
-    O "Interessante... Você realmente entende de flores."
+    O "Interessante... Você realmente entende muito de flores."
     Vf "Sim, elas são minha paixão. Cada flor carrega um significado especial."
     O "Você poderia me mostrar mais?"
     Vf "Claro! Vamos dar uma volta pela floricultura."
@@ -50,9 +51,10 @@ label ask_flowers:
 label accompany_violeta:
     V "Esses lírios representam pureza e renovação."
     O "São realmente bonitos."
-    Vf "E aqui temos os jasmins, que simbolizam a graça e a elegância."
+    Vf "E aqui temos os jasmins, que simbolizam a graça e a elegância. Inclusive, elas são as minhas favoritas"
     O "Seu conhecimento é impressionante, Violeta."
     Vf "Obrigada, Oliver. Fico feliz em compartilhar isso com você."
+    n "Oliver se sente atraídpor Violeta, mas tem medo de dizer e acabar afastando ela."
 
     menu:
         "Mostrar interesse por Violeta":
