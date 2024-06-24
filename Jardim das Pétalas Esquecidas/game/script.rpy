@@ -1,13 +1,13 @@
 ﻿# Define the characters
-define O = Character("Oliver", color="#00aaff")
-define Of = Character("Oliver", color="#00aaff", what_prefix="[Feliz] ")
-define Ot = Character("Oliver", color="#00aaff", what_prefix="[Triste] ")
-define Or = Character("Oliver", color="#00aaff", what_prefix="[Com raiva] ")
+define O = Character("Oliver")
+define Of = Character("Oliver")
+define Ot = Character("Oliver")
+define Or = Character("Oliver")
 
-define V = Character("Violeta", color="#ff69b4")
-define Vf = Character("Violeta", color="#ff69b4", what_prefix="[Feliz] ")
-define Vt = Character("Violeta", color="#ff69b4", what_prefix="[Triste] ")
-define Vr = Character("Violeta", color="#ff69b4", what_prefix="[Com raiva] ")
+define V = Character("Violeta")
+define Vf = Character("Violeta")
+define Vt = Character("Violeta")
+define Vr = Character("Violeta")
 
 # The game starts here.
 label start:

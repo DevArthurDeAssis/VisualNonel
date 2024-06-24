@@ -40,4 +40,4 @@ NameError: Name 'Feliz' is not defined.
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.2.3.24061702
 Jardim das Pétalas Esquecidas 1.0
-Mon Jun 24 13:38:19 2024
+Mon Jun 24 13:53:09 2024
